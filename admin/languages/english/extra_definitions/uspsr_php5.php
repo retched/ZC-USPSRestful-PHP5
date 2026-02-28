@@ -5,7 +5,7 @@
  * 
  * @copyright Portions Copyright 2004-2026 Zen Cart Team
  * @author Paul Williams (retched)
- * @version $Id: uspsr.php 0000-00-00 retched Version 0.0.0 $
+ * @version $Id: uspsr_php5.php 0000-00-00 retched Version 0.0.0 $
 ****************************************************************************
     USPS Shipping (w/REST API) for Zen Cart - PHP 5 Version
     A shipping module for ZenCart, an ecommerce platform
