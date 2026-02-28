@@ -1,4 +1,4 @@
-# USPS Shipping (RESTful) for Zen Cart
+# USPS Shipping (RESTful) for Zen Cart - PHP5 Version
 
 ![ZC-USPSRestful](https://socialify.git.ci/retched/ZC-USPSRestful-PHP5/image?custom_description=A%20USPS%20shipping%20module%20for%20ZenCart%2C%20for%20PHP5%20users&description=1&font=Inter&forks=1&issues=1&language=1&name=1&owner=0&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
 
@@ -154,16 +154,15 @@ For the update
 ``` text
 - LICENSE
 - README.md (this file)
-- README_1st.md
 - README.html
 - changelog.md
-- \admin\uspsr_uninstall.php
-- \admin\includes\extra_datafiles\uspsr_uninstaller.php
-- \admin\includes\functions\extra_functions\usps.extra_functions.php
-- \admin\includes\languages\english\extra_definitions\uspsr.php
-- \includes\languages\english\modules\shipping\uspsr.php
-- \includes\functions\extra_functions\usps.extra_functions.php
-- \includes\modules\shipping\uspsr.php
+- \admin\uspsr_php5_uninstall.php
+- \admin\includes\extra_datafiles\uspsr_php5_uninstaller.php
+- \admin\includes\functions\extra_functions\usps_php5.extra_functions.php
+- \admin\includes\languages\english\extra_definitions\uspsr_php5.php
+- \includes\languages\english\modules\shipping\uspsr_php5.php
+- \includes\functions\extra_functions\usps_php5.extra_functions.php
+- \includes\modules\shipping\uspsr_php5.php
 - \includes\templates\template_default\images\icons\shipping_usps.gif
 ```
 
