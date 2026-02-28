@@ -1,4 +1,4 @@
 *.code-workspace
 *.ps1
 *.bat
-settings.json
+.vscode/

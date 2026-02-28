@@ -60,18 +60,16 @@ This version of the module will only work with the ZenCart versions noted below 
 
 |                               | Supported?  |
 |-------------------------------|:-----------:|
-| ZenCart v1.2.x through v1.3.6 | :x:         |
-| ZenCart 1.3.7                 | :clipboard: |
+| ZenCart v1.2.x through v1.3.7 | :x:         |
 | ZenCart 1.3.8                 | :clipboard: |
 | ZenCart 1.3.9                 | :clipboard: |
 | ZenCart 1.5.0                 | :clipboard: |
 | ZenCart 1.5.1                 | :clipboard: |
-| ZenCart 1.5.2                 | :clipboard: |
 | ZenCart 1.5.3                 | :clipboard: |
 | ZenCart 1.5.4                 | :clipboard: |
 | ZenCart 1.5.5                 | :clipboard: |
-| ZenCart 1.5.6                 | :clipboard: |
-| ZenCart 1.5.7                 | :clipboard: |
+| ZenCart 1.5.6                 | [Should Work, but use other module](https://github.com/retched/ZC-USPSRestful) |
+| ZenCart 1.5.7                 | [Should Work, but use other module](https://github.com/retched/ZC-USPSRestful) |
 | ZenCart 1.5.8+                | :x:         |
 
 - :white_check_mark: = Fully supported
