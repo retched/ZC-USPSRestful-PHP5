@@ -1,0 +1,86 @@
+name: Bug Report
+description: File a bug report. Use this to explain, in detail, that something is going on with the script. (This SHOULD NOT be used to report general ZenCart errors unrelated to the module.)
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please complete this form in detail with as many details as possible. If you're going to submit screenshots, you can either submit them as comments to the post this form will make or include them in the form field.
+  - type: dropdown
+    id: uspsr-version
+    attributes:
+      label: USPSr - PHP 5 Version
+      description: What version of the module are you running?
+      options:
+        - 0.0.0 (pulled off of repo)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: zencart-version
+    attributes:
+      label: ZenCart Version
+      description: What version of ZenCart are you running? This module has only been tested with ZenCart 1.3 and 1.5. No older (or newer) versions are supported. (Newer versions of ZenCart should not be using this module, but if you are, please include that information in the "Additional Information" field at the bottom of this form.)
+      multiple: false
+      options:
+        - 1.5.4
+        - 1.5.3
+        - 1.5.1
+        - 1.5.0
+        - 1.3.9
+        - 1.3.8
+        - Other (describe in additional info or "What happened?" fields)
+      default: 1
+    validations:
+      required: true
+  - type: dropdown
+    id: php-version
+    attributes:
+      label: PHP Version
+      description: As a reminder, 
+      multiple: false
+      options:
+        - PHP 5.6.40
+        - PHP 5.5.38
+        - PHP 5.4.45
+        - PHP 5.3.29
+        - PHP 5.2.17
+        - PHP 5.1.6
+        - PHP 5.0.5
+        - Other (describe in additional info or "What happened?" fields)
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: related-thread
+    attributes:
+      label: Related Thread
+      placeholder: Be sure to include the https:// in the front
+      description: Is this issued related to a thread/post from the ZenCart forums? If so, link it here. (Prefably link to the specific post, not just the thread. To get the link to the post, find the number of the post and right click on it. Your browser should have a "Copy link" option or something similar. Paste THAT link here.)
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened? Describe the bug in detail
+      description: What did you expect to happen? If you're getting visual errors, include a screen shot here. (If you're getting errors from ZenCart, be sure to include those too.)
+      placeholder: What's going on?
+    validations:
+      required: true
+  - type: input
+    id: usps-logs
+    attributes:
+      label: Relevant Log Output
+      description: "Please link to an **UNLISTED** Pastebin (not secret, I can't see it), **SECRET** Github Gist (this hides it from search engines), or similar service that has any relevant log output from either USPSr or ZenCart here. This would be the contents of the USPSr log file that appeared in your logs directory from ZenCart. If desired, please email to me at retched@hotmail.com. (Subject Line: USPS Debug Logs)<br><br>**__NOTE:__** Please keep in mind, this repo is NOT private. Anyone will be able to see this link and review the gist."
+  - type: textarea
+    id: zen-logs
+    attributes:
+      label: Relevant ZenCart Log Output
+      description: If there are any relevant log entries from ZenCart's logs (system or error logs), please include that below. Obfuscate any sensitive information (like directory names, etc.) before posting.
+      render: shell
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Is there any other information you think would be helpful in diagnosing the problem?
+      placeholder: Anything else to add?
+      
